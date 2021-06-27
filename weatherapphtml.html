@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherly</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/weatherapp.css" />
+    <script
+      src="https://kit.fontawesome.com/906e1d50d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/weatherapp.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row today">
+        <div class="col-3">
+          Durham
+          <br />
+          Friday 5/28
+        </div>
+        <div class="col-2 temp">82°F</div>
+        <div class="col-2 sun-icon">
+          <i class="far fa-sun"></i>
+        </div>
+        <div class="col-2">
+          <button class="current-conditions">Current</button>
+        </div>
+      </div>
+      <div class="row week">
+        <div class="col-3 saturday">
+          Saturday
+          <br />
+          🌧
+          <br />
+          70°
+        </div>
+        <div class="col-3 sunday">
+          Sunday
+          <br />
+          🌥
+          <br />
+          68°
+        </div>
+        <div class="col-3 monday">
+          Monday
+          <br />
+          ☀
+          <br />
+          75°
+        </div>
+      </div>
+      <div class="row week2">
+        <div class="col-3 tuesday">
+          Tuesday
+          <br />
+          🌤
+          <br />
+          70°
+        </div>
+        <div class="col-3 wednesday">
+          Wednesday
+          <br />
+          🌧
+          <br />
+          78°
+        </div>
+      </div>
+      <form>
+        <input type="search" placeholder="city" />
+        <button class="search-button">Search</button>
+      </form>
+    </div>
+  </body>
+</html>
